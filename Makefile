@@ -349,6 +349,39 @@ src/psi_tree_operations.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_operations.cpp.s
 .PHONY : src/psi_tree_operations.cpp.s
 
+src/psi_tree_transformer.o: src/psi_tree_transformer.cpp.o
+.PHONY : src/psi_tree_transformer.o
+
+# target to build an object file
+src/psi_tree_transformer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_transformer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_transformer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_transformer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_transformer.cpp.o
+.PHONY : src/psi_tree_transformer.cpp.o
+
+src/psi_tree_transformer.i: src/psi_tree_transformer.cpp.i
+.PHONY : src/psi_tree_transformer.i
+
+# target to preprocess a source file
+src/psi_tree_transformer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_transformer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_transformer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_transformer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_transformer.cpp.i
+.PHONY : src/psi_tree_transformer.cpp.i
+
+src/psi_tree_transformer.s: src/psi_tree_transformer.cpp.s
+.PHONY : src/psi_tree_transformer.s
+
+# target to generate assembly for a file
+src/psi_tree_transformer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_transformer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_transformer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_transformer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_transformer.cpp.s
+.PHONY : src/psi_tree_transformer.cpp.s
+
 src/stub_index.o: src/stub_index.cpp.o
 .PHONY : src/stub_index.o
 
@@ -438,6 +471,30 @@ test/function_stub_test.s: test/function_stub_test.cpp.s
 test/function_stub_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/function_stub_test.cpp.s
 .PHONY : test/function_stub_test.cpp.s
+
+test/integration_test.o: test/integration_test.cpp.o
+.PHONY : test/integration_test.o
+
+# target to build an object file
+test/integration_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/integration_test.cpp.o
+.PHONY : test/integration_test.cpp.o
+
+test/integration_test.i: test/integration_test.cpp.i
+.PHONY : test/integration_test.i
+
+# target to preprocess a source file
+test/integration_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/integration_test.cpp.i
+.PHONY : test/integration_test.cpp.i
+
+test/integration_test.s: test/integration_test.cpp.s
+.PHONY : test/integration_test.s
+
+# target to generate assembly for a file
+test/integration_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/integration_test.cpp.s
+.PHONY : test/integration_test.cpp.s
 
 test/parser_test.o: test/parser_test.cpp.o
 .PHONY : test/parser_test.o
@@ -662,6 +719,9 @@ help:
 	@echo "... src/psi_tree_operations.o"
 	@echo "... src/psi_tree_operations.i"
 	@echo "... src/psi_tree_operations.s"
+	@echo "... src/psi_tree_transformer.o"
+	@echo "... src/psi_tree_transformer.i"
+	@echo "... src/psi_tree_transformer.s"
 	@echo "... src/stub_index.o"
 	@echo "... src/stub_index.i"
 	@echo "... src/stub_index.s"
@@ -671,6 +731,9 @@ help:
 	@echo "... test/function_stub_test.o"
 	@echo "... test/function_stub_test.i"
 	@echo "... test/function_stub_test.s"
+	@echo "... test/integration_test.o"
+	@echo "... test/integration_test.i"
+	@echo "... test/integration_test.s"
 	@echo "... test/parser_test.o"
 	@echo "... test/parser_test.i"
 	@echo "... test/parser_test.s"

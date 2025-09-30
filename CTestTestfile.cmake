@@ -5,4 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test([=[StubIndexTest]=] "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/stub_index_test")
-set_tests_properties([=[StubIndexTest]=] PROPERTIES  _BACKTRACE_TRIPLES "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/CMakeLists.txt;48;add_test;/Users/lishizheng/Desktop/Code/stub-learning/stub-index/CMakeLists.txt;0;")
+set_tests_properties([=[StubIndexTest]=] PROPERTIES  _BACKTRACE_TRIPLES "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/CMakeLists.txt;50;add_test;/Users/lishizheng/Desktop/Code/stub-learning/stub-index/CMakeLists.txt;0;")

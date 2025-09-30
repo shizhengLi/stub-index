@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo.dir/src/psi_tree_builder.cpp.o.d"
   "CMakeFiles/demo.dir/src/psi_tree_operations.cpp.o"
   "CMakeFiles/demo.dir/src/psi_tree_operations.cpp.o.d"
+  "CMakeFiles/demo.dir/src/psi_tree_transformer.cpp.o"
+  "CMakeFiles/demo.dir/src/psi_tree_transformer.cpp.o.d"
   "CMakeFiles/demo.dir/src/stub_index.cpp.o"
   "CMakeFiles/demo.dir/src/stub_index.cpp.o.d"
   "CMakeFiles/demo.dir/src/stub_parser.cpp.o"

@@ -38,6 +38,7 @@ set(TEST_SOURCES
     test/psi_tree_builder_test.cpp
     test/psi_tree_operations_test.cpp
     test/psi_tree_transformer_test.cpp
+    test/integration_test.cpp
 )
 
 # 创建测试可执行文件

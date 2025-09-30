@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp" "CMakeFiles/debug_parser.dir/src/psi_node.cpp.o" "gcc" "CMakeFiles/debug_parser.dir/src/psi_node.cpp.o.d"
   "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp" "CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o" "gcc" "CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o.d"
   "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp" "CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o" "gcc" "CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o.d"
+  "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_transformer.cpp" "CMakeFiles/debug_parser.dir/src/psi_tree_transformer.cpp.o" "gcc" "CMakeFiles/debug_parser.dir/src/psi_tree_transformer.cpp.o.d"
   "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_index.cpp" "CMakeFiles/debug_parser.dir/src/stub_index.cpp.o" "gcc" "CMakeFiles/debug_parser.dir/src/stub_index.cpp.o.d"
   "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_parser.cpp" "CMakeFiles/debug_parser.dir/src/stub_parser.cpp.o" "gcc" "CMakeFiles/debug_parser.dir/src/stub_parser.cpp.o.d"
   )

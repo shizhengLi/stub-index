@@ -2,6 +2,7 @@
 #include "psi_tree_operations.h"
 #include "psi_tree_builder.h"
 #include "psi_visitor.h"
+#include <cctype>
 
 using namespace stub_index;
 
@@ -59,7 +60,15 @@ TEST_F(PSITreeTransformerTest, TransformTreeBasic) {
     EXPECT_GT(classes.size(), 0);
     for (auto* class_node : classes) {
         std::string name = class_node->getText();
-        EXPECT_EQ(name, std::string(name.size(), std::toupper(name[0])));
+        // 验证所有字符都是大写的
+        bool all_upper = true;
+        for (char c : name) {
+            if (!std::isupper(c) && std::isalpha(c)) {
+                all_upper = false;
+                break;
+            }
+        }
+        EXPECT_TRUE(all_upper) << "Node name should be uppercase: " << name;
     }
 }
 

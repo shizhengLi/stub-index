@@ -91,7 +91,7 @@ std::shared_ptr<PSINode> PSITreeTransformer::mergeTrees(const std::vector<PSINod
     }
 
     // 创建合并后的根节点
-    auto merged_root = std::make_shared<PSINode>(PSINodeType::FILE, "merged", SourceLocation());
+    auto merged_root = std::make_shared<PSINode>(PSINodeType::FILE, "merged", SourceLocation("merged", 0, 0));
 
     // 合并所有树的子节点
     for (auto* tree : trees) {
