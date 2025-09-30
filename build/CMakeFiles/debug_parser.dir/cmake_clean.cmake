@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/debug_parser.dir/examples/debug_parser.cpp.o"
   "CMakeFiles/debug_parser.dir/examples/debug_parser.cpp.o.d"
+  "CMakeFiles/debug_parser.dir/src/psi_node.cpp.o"
+  "CMakeFiles/debug_parser.dir/src/psi_node.cpp.o.d"
+  "CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o"
+  "CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o.d"
+  "CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o"
+  "CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o.d"
   "CMakeFiles/debug_parser.dir/src/stub_index.cpp.o"
   "CMakeFiles/debug_parser.dir/src/stub_index.cpp.o.d"
   "CMakeFiles/debug_parser.dir/src/stub_parser.cpp.o"

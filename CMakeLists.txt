@@ -17,6 +17,14 @@ set(SOURCES
     src/stub_index.cpp
     src/stub_parser.h
     src/stub_parser.cpp
+    src/psi_node.h
+    src/psi_node.cpp
+    src/psi_visitor.h
+    src/psi_tree_builder.h
+    src/psi_tree_builder.cpp
+    src/psi_tree_operations.h
+    src/psi_tree_operations.cpp
+    src/psi_tree_transformer.cpp
 )
 
 # 测试文件
@@ -26,6 +34,10 @@ set(TEST_SOURCES
     test/variable_stub_test.cpp
     test/stub_index_test.cpp
     test/parser_test.cpp
+    test/psi_node_test.cpp
+    test/psi_tree_builder_test.cpp
+    test/psi_tree_operations_test.cpp
+    test/psi_tree_transformer_test.cpp
 )
 
 # 创建测试可执行文件

@@ -1,6 +1,12 @@
 file(REMOVE_RECURSE
   "CMakeFiles/simple_test.dir/examples/simple_test.cpp.o"
   "CMakeFiles/simple_test.dir/examples/simple_test.cpp.o.d"
+  "CMakeFiles/simple_test.dir/src/psi_node.cpp.o"
+  "CMakeFiles/simple_test.dir/src/psi_node.cpp.o.d"
+  "CMakeFiles/simple_test.dir/src/psi_tree_builder.cpp.o"
+  "CMakeFiles/simple_test.dir/src/psi_tree_builder.cpp.o.d"
+  "CMakeFiles/simple_test.dir/src/psi_tree_operations.cpp.o"
+  "CMakeFiles/simple_test.dir/src/psi_tree_operations.cpp.o.d"
   "CMakeFiles/simple_test.dir/src/stub_index.cpp.o"
   "CMakeFiles/simple_test.dir/src/stub_index.cpp.o.d"
   "CMakeFiles/simple_test.dir/src/stub_parser.cpp.o"

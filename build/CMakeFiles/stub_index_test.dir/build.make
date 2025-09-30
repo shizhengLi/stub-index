@@ -142,10 +142,52 @@ CMakeFiles/stub_index_test.dir/test/parser_test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/test/parser_test.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/parser_test.cpp -o CMakeFiles/stub_index_test.dir/test/parser_test.cpp.s
 
+CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
+CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_node_test.cpp
+CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o -MF CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o.d -o CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_node_test.cpp
+
+CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_node_test.cpp > CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.i
+
+CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_node_test.cpp -o CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.s
+
+CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
+CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_builder_test.cpp
+CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o -MF CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o.d -o CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_builder_test.cpp
+
+CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_builder_test.cpp > CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.i
+
+CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_builder_test.cpp -o CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.s
+
+CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
+CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp
+CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o -MF CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o.d -o CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp
+
+CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp > CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.i
+
+CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp -o CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.s
+
 CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
 CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_index.cpp
 CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o -MF CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o.d -o CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_index.cpp
 
 CMakeFiles/stub_index_test.dir/src/stub_index.cpp.i: cmake_force
@@ -159,7 +201,7 @@ CMakeFiles/stub_index_test.dir/src/stub_index.cpp.s: cmake_force
 CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
 CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_parser.cpp
 CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o -MF CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o.d -o CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_parser.cpp
 
 CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.i: cmake_force
@@ -170,6 +212,48 @@ CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_parser.cpp -o CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.s
 
+CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
+CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp
+CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o -MF CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o.d -o CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp
+
+CMakeFiles/stub_index_test.dir/src/psi_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stub_index_test.dir/src/psi_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp > CMakeFiles/stub_index_test.dir/src/psi_node.cpp.i
+
+CMakeFiles/stub_index_test.dir/src/psi_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/src/psi_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp -o CMakeFiles/stub_index_test.dir/src/psi_node.cpp.s
+
+CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
+CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp
+CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o -MF CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o.d -o CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp
+
+CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp > CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.i
+
+CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp -o CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.s
+
+CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o: CMakeFiles/stub_index_test.dir/flags.make
+CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp
+CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o: CMakeFiles/stub_index_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o -MF CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o.d -o CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp
+
+CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp > CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.i
+
+CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp -o CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.s
+
 # Object files for target stub_index_test
 stub_index_test_OBJECTS = \
 "CMakeFiles/stub_index_test.dir/test/stub_entry_test.cpp.o" \
@@ -177,8 +261,14 @@ stub_index_test_OBJECTS = \
 "CMakeFiles/stub_index_test.dir/test/variable_stub_test.cpp.o" \
 "CMakeFiles/stub_index_test.dir/test/stub_index_test.cpp.o" \
 "CMakeFiles/stub_index_test.dir/test/parser_test.cpp.o" \
+"CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o" \
+"CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o" \
+"CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o" \
 "CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o" \
-"CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o"
+"CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o" \
+"CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o" \
+"CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o" \
+"CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o"
 
 # External object files for target stub_index_test
 stub_index_test_EXTERNAL_OBJECTS =
@@ -188,13 +278,19 @@ stub_index_test: CMakeFiles/stub_index_test.dir/test/function_stub_test.cpp.o
 stub_index_test: CMakeFiles/stub_index_test.dir/test/variable_stub_test.cpp.o
 stub_index_test: CMakeFiles/stub_index_test.dir/test/stub_index_test.cpp.o
 stub_index_test: CMakeFiles/stub_index_test.dir/test/parser_test.cpp.o
+stub_index_test: CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o
+stub_index_test: CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o
+stub_index_test: CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o
 stub_index_test: CMakeFiles/stub_index_test.dir/src/stub_index.cpp.o
 stub_index_test: CMakeFiles/stub_index_test.dir/src/stub_parser.cpp.o
+stub_index_test: CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o
+stub_index_test: CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o
+stub_index_test: CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o
 stub_index_test: CMakeFiles/stub_index_test.dir/build.make
 stub_index_test: /opt/homebrew/lib/libgtest_main.a
 stub_index_test: /opt/homebrew/lib/libgtest.a
 stub_index_test: CMakeFiles/stub_index_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable stub_index_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable stub_index_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stub_index_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

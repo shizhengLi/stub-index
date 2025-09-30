@@ -250,6 +250,105 @@ examples/simple_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/examples/simple_test.cpp.s
 .PHONY : examples/simple_test.cpp.s
 
+src/psi_node.o: src/psi_node.cpp.o
+.PHONY : src/psi_node.o
+
+# target to build an object file
+src/psi_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_node.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_node.cpp.o
+.PHONY : src/psi_node.cpp.o
+
+src/psi_node.i: src/psi_node.cpp.i
+.PHONY : src/psi_node.i
+
+# target to preprocess a source file
+src/psi_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_node.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_node.cpp.i
+.PHONY : src/psi_node.cpp.i
+
+src/psi_node.s: src/psi_node.cpp.s
+.PHONY : src/psi_node.s
+
+# target to generate assembly for a file
+src/psi_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_node.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_node.cpp.s
+.PHONY : src/psi_node.cpp.s
+
+src/psi_tree_builder.o: src/psi_tree_builder.cpp.o
+.PHONY : src/psi_tree_builder.o
+
+# target to build an object file
+src/psi_tree_builder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_builder.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_builder.cpp.o
+.PHONY : src/psi_tree_builder.cpp.o
+
+src/psi_tree_builder.i: src/psi_tree_builder.cpp.i
+.PHONY : src/psi_tree_builder.i
+
+# target to preprocess a source file
+src/psi_tree_builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_builder.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_builder.cpp.i
+.PHONY : src/psi_tree_builder.cpp.i
+
+src/psi_tree_builder.s: src/psi_tree_builder.cpp.s
+.PHONY : src/psi_tree_builder.s
+
+# target to generate assembly for a file
+src/psi_tree_builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_builder.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_builder.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_builder.cpp.s
+.PHONY : src/psi_tree_builder.cpp.s
+
+src/psi_tree_operations.o: src/psi_tree_operations.cpp.o
+.PHONY : src/psi_tree_operations.o
+
+# target to build an object file
+src/psi_tree_operations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_operations.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_operations.cpp.o
+.PHONY : src/psi_tree_operations.cpp.o
+
+src/psi_tree_operations.i: src/psi_tree_operations.cpp.i
+.PHONY : src/psi_tree_operations.i
+
+# target to preprocess a source file
+src/psi_tree_operations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_operations.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_operations.cpp.i
+.PHONY : src/psi_tree_operations.cpp.i
+
+src/psi_tree_operations.s: src/psi_tree_operations.cpp.s
+.PHONY : src/psi_tree_operations.s
+
+# target to generate assembly for a file
+src/psi_tree_operations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/src/psi_tree_operations.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/debug_parser.dir/build.make CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_test.dir/build.make CMakeFiles/simple_test.dir/src/psi_tree_operations.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo.dir/build.make CMakeFiles/demo.dir/src/psi_tree_operations.cpp.s
+.PHONY : src/psi_tree_operations.cpp.s
+
 src/stub_index.o: src/stub_index.cpp.o
 .PHONY : src/stub_index.o
 
@@ -364,6 +463,78 @@ test/parser_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/parser_test.cpp.s
 .PHONY : test/parser_test.cpp.s
 
+test/psi_node_test.o: test/psi_node_test.cpp.o
+.PHONY : test/psi_node_test.o
+
+# target to build an object file
+test/psi_node_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.o
+.PHONY : test/psi_node_test.cpp.o
+
+test/psi_node_test.i: test/psi_node_test.cpp.i
+.PHONY : test/psi_node_test.i
+
+# target to preprocess a source file
+test/psi_node_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.i
+.PHONY : test/psi_node_test.cpp.i
+
+test/psi_node_test.s: test/psi_node_test.cpp.s
+.PHONY : test/psi_node_test.s
+
+# target to generate assembly for a file
+test/psi_node_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_node_test.cpp.s
+.PHONY : test/psi_node_test.cpp.s
+
+test/psi_tree_builder_test.o: test/psi_tree_builder_test.cpp.o
+.PHONY : test/psi_tree_builder_test.o
+
+# target to build an object file
+test/psi_tree_builder_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.o
+.PHONY : test/psi_tree_builder_test.cpp.o
+
+test/psi_tree_builder_test.i: test/psi_tree_builder_test.cpp.i
+.PHONY : test/psi_tree_builder_test.i
+
+# target to preprocess a source file
+test/psi_tree_builder_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.i
+.PHONY : test/psi_tree_builder_test.cpp.i
+
+test/psi_tree_builder_test.s: test/psi_tree_builder_test.cpp.s
+.PHONY : test/psi_tree_builder_test.s
+
+# target to generate assembly for a file
+test/psi_tree_builder_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_tree_builder_test.cpp.s
+.PHONY : test/psi_tree_builder_test.cpp.s
+
+test/psi_tree_operations_test.o: test/psi_tree_operations_test.cpp.o
+.PHONY : test/psi_tree_operations_test.o
+
+# target to build an object file
+test/psi_tree_operations_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.o
+.PHONY : test/psi_tree_operations_test.cpp.o
+
+test/psi_tree_operations_test.i: test/psi_tree_operations_test.cpp.i
+.PHONY : test/psi_tree_operations_test.i
+
+# target to preprocess a source file
+test/psi_tree_operations_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.i
+.PHONY : test/psi_tree_operations_test.cpp.i
+
+test/psi_tree_operations_test.s: test/psi_tree_operations_test.cpp.s
+.PHONY : test/psi_tree_operations_test.s
+
+# target to generate assembly for a file
+test/psi_tree_operations_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/stub_index_test.dir/build.make CMakeFiles/stub_index_test.dir/test/psi_tree_operations_test.cpp.s
+.PHONY : test/psi_tree_operations_test.cpp.s
+
 test/stub_entry_test.o: test/stub_entry_test.cpp.o
 .PHONY : test/stub_entry_test.o
 
@@ -458,6 +629,15 @@ help:
 	@echo "... examples/simple_test.o"
 	@echo "... examples/simple_test.i"
 	@echo "... examples/simple_test.s"
+	@echo "... src/psi_node.o"
+	@echo "... src/psi_node.i"
+	@echo "... src/psi_node.s"
+	@echo "... src/psi_tree_builder.o"
+	@echo "... src/psi_tree_builder.i"
+	@echo "... src/psi_tree_builder.s"
+	@echo "... src/psi_tree_operations.o"
+	@echo "... src/psi_tree_operations.i"
+	@echo "... src/psi_tree_operations.s"
 	@echo "... src/stub_index.o"
 	@echo "... src/stub_index.i"
 	@echo "... src/stub_index.s"
@@ -470,6 +650,15 @@ help:
 	@echo "... test/parser_test.o"
 	@echo "... test/parser_test.i"
 	@echo "... test/parser_test.s"
+	@echo "... test/psi_node_test.o"
+	@echo "... test/psi_node_test.i"
+	@echo "... test/psi_node_test.s"
+	@echo "... test/psi_tree_builder_test.o"
+	@echo "... test/psi_tree_builder_test.i"
+	@echo "... test/psi_tree_builder_test.s"
+	@echo "... test/psi_tree_operations_test.o"
+	@echo "... test/psi_tree_operations_test.i"
+	@echo "... test/psi_tree_operations_test.s"
 	@echo "... test/stub_entry_test.o"
 	@echo "... test/stub_entry_test.i"
 	@echo "... test/stub_entry_test.s"

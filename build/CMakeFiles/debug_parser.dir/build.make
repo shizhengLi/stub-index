@@ -114,11 +114,56 @@ CMakeFiles/debug_parser.dir/src/stub_parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/debug_parser.dir/src/stub_parser.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/stub_parser.cpp -o CMakeFiles/debug_parser.dir/src/stub_parser.cpp.s
 
+CMakeFiles/debug_parser.dir/src/psi_node.cpp.o: CMakeFiles/debug_parser.dir/flags.make
+CMakeFiles/debug_parser.dir/src/psi_node.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp
+CMakeFiles/debug_parser.dir/src/psi_node.cpp.o: CMakeFiles/debug_parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/debug_parser.dir/src/psi_node.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/debug_parser.dir/src/psi_node.cpp.o -MF CMakeFiles/debug_parser.dir/src/psi_node.cpp.o.d -o CMakeFiles/debug_parser.dir/src/psi_node.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp
+
+CMakeFiles/debug_parser.dir/src/psi_node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/debug_parser.dir/src/psi_node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp > CMakeFiles/debug_parser.dir/src/psi_node.cpp.i
+
+CMakeFiles/debug_parser.dir/src/psi_node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/debug_parser.dir/src/psi_node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_node.cpp -o CMakeFiles/debug_parser.dir/src/psi_node.cpp.s
+
+CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o: CMakeFiles/debug_parser.dir/flags.make
+CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp
+CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o: CMakeFiles/debug_parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o -MF CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o.d -o CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp
+
+CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp > CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.i
+
+CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_builder.cpp -o CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.s
+
+CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o: CMakeFiles/debug_parser.dir/flags.make
+CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp
+CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o: CMakeFiles/debug_parser.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o -MF CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o.d -o CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o -c /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp
+
+CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp > CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.i
+
+CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/lishizheng/Desktop/Code/stub-learning/stub-index/src/psi_tree_operations.cpp -o CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.s
+
 # Object files for target debug_parser
 debug_parser_OBJECTS = \
 "CMakeFiles/debug_parser.dir/examples/debug_parser.cpp.o" \
 "CMakeFiles/debug_parser.dir/src/stub_index.cpp.o" \
-"CMakeFiles/debug_parser.dir/src/stub_parser.cpp.o"
+"CMakeFiles/debug_parser.dir/src/stub_parser.cpp.o" \
+"CMakeFiles/debug_parser.dir/src/psi_node.cpp.o" \
+"CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o" \
+"CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o"
 
 # External object files for target debug_parser
 debug_parser_EXTERNAL_OBJECTS =
@@ -126,11 +171,14 @@ debug_parser_EXTERNAL_OBJECTS =
 debug_parser: CMakeFiles/debug_parser.dir/examples/debug_parser.cpp.o
 debug_parser: CMakeFiles/debug_parser.dir/src/stub_index.cpp.o
 debug_parser: CMakeFiles/debug_parser.dir/src/stub_parser.cpp.o
+debug_parser: CMakeFiles/debug_parser.dir/src/psi_node.cpp.o
+debug_parser: CMakeFiles/debug_parser.dir/src/psi_tree_builder.cpp.o
+debug_parser: CMakeFiles/debug_parser.dir/src/psi_tree_operations.cpp.o
 debug_parser: CMakeFiles/debug_parser.dir/build.make
 debug_parser: /opt/homebrew/lib/libgtest_main.a
 debug_parser: /opt/homebrew/lib/libgtest.a
 debug_parser: CMakeFiles/debug_parser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable debug_parser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable debug_parser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/debug_parser.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

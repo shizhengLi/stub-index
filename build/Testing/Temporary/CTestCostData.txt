@@ -1,0 +1,3 @@
+StubIndexTest 2 0
+---
+StubIndexTest

@@ -1,0 +1,240 @@
+Start testing: Sep 30 16:39 CST
+----------------------------------------------------------
+1/1 Testing: StubIndexTest
+1/1 Test: StubIndexTest
+Command: "/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/stub_index_test"
+Directory: /Users/lishizheng/Desktop/Code/stub-learning/stub-index/build
+"StubIndexTest" start time: Sep 30 16:39 CST
+Output:
+----------------------------------------------------------
+Running main() from /private/tmp/googletest-20250808-4780-aa0gxy/googletest-1.17.0/googletest/src/gtest_main.cc
+[==========] Running 53 tests from 15 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from StubEntryTest
+[ RUN      ] StubEntryTest.CreateClassStub
+[       OK ] StubEntryTest.CreateClassStub (0 ms)
+[ RUN      ] StubEntryTest.CreateStructStub
+[       OK ] StubEntryTest.CreateStructStub (0 ms)
+[ RUN      ] StubEntryTest.ToString
+[       OK ] StubEntryTest.ToString (0 ms)
+[----------] 3 tests from StubEntryTest (0 ms total)
+
+[----------] 3 tests from FunctionStubTest
+[ RUN      ] FunctionStubTest.CreateFunctionStub
+[       OK ] FunctionStubTest.CreateFunctionStub (0 ms)
+[ RUN      ] FunctionStubTest.FunctionWithParameters
+[       OK ] FunctionStubTest.FunctionWithParameters (0 ms)
+[ RUN      ] FunctionStubTest.FunctionToString
+[       OK ] FunctionStubTest.FunctionToString (0 ms)
+[----------] 3 tests from FunctionStubTest (0 ms total)
+
+[----------] 3 tests from VariableStubTest
+[ RUN      ] VariableStubTest.CreateVariableStub
+[       OK ] VariableStubTest.CreateVariableStub (0 ms)
+[ RUN      ] VariableStubTest.VariableWithDifferentTypes
+[       OK ] VariableStubTest.VariableWithDifferentTypes (0 ms)
+[ RUN      ] VariableStubTest.VariableToString
+[       OK ] VariableStubTest.VariableToString (0 ms)
+[----------] 3 tests from VariableStubTest (0 ms total)
+
+[----------] 6 tests from StubIndexTest
+[ RUN      ] StubIndexTest.CreateEmptyIndex
+[       OK ] StubIndexTest.CreateEmptyIndex (0 ms)
+[ RUN      ] StubIndexTest.AddClassEntry
+[       OK ] StubIndexTest.AddClassEntry (0 ms)
+[ RUN      ] StubIndexTest.QueryByType
+[       OK ] StubIndexTest.QueryByType (0 ms)
+[ RUN      ] StubIndexTest.QueryByFile
+[       OK ] StubIndexTest.QueryByFile (0 ms)
+[ RUN      ] StubIndexTest.ComplexQuery
+[       OK ] StubIndexTest.ComplexQuery (0 ms)
+[ RUN      ] StubIndexTest.ClearIndex
+[       OK ] StubIndexTest.ClearIndex (0 ms)
+[----------] 6 tests from StubIndexTest (0 ms total)
+
+[----------] 6 tests from ParserTest
+[ RUN      ] ParserTest.ParseSimpleClass
+[       OK ] ParserTest.ParseSimpleClass (2 ms)
+[ RUN      ] ParserTest.ParseStruct
+[       OK ] ParserTest.ParseStruct (1 ms)
+[ RUN      ] ParserTest.ParseFunctionDeclaration
+[       OK ] ParserTest.ParseFunctionDeclaration (2 ms)
+[ RUN      ] ParserTest.ParseVariableDeclaration
+[       OK ] ParserTest.ParseVariableDeclaration (1 ms)
+[ RUN      ] ParserTest.ParseComplexCode
+[       OK ] ParserTest.ParseComplexCode (10 ms)
+[ RUN      ] ParserTest.ParseWithFileSource
+[       OK ] ParserTest.ParseWithFileSource (1 ms)
+[----------] 6 tests from ParserTest (21 ms total)
+
+[----------] 4 tests from PSINodeTest
+[ RUN      ] PSINodeTest.BasicNodeOperations
+[       OK ] PSINodeTest.BasicNodeOperations (0 ms)
+[ RUN      ] PSINodeTest.TreeStructure
+[       OK ] PSINodeTest.TreeStructure (0 ms)
+[ RUN      ] PSINodeTest.NodeSearch
+[       OK ] PSINodeTest.NodeSearch (0 ms)
+[ RUN      ] PSINodeTest.SemanticInfo
+[       OK ] PSINodeTest.SemanticInfo (0 ms)
+[----------] 4 tests from PSINodeTest (0 ms total)
+
+[----------] 1 test from PSIFileNodeTest
+[ RUN      ] PSIFileNodeTest.FileNodeOperations
+[       OK ] PSIFileNodeTest.FileNodeOperations (0 ms)
+[----------] 1 test from PSIFileNodeTest (0 ms total)
+
+[----------] 1 test from PSIClassNodeTest
+[ RUN      ] PSIClassNodeTest.ClassNodeOperations
+[       OK ] PSIClassNodeTest.ClassNodeOperations (0 ms)
+[----------] 1 test from PSIClassNodeTest (0 ms total)
+
+[----------] 1 test from PSIFunctionNodeTest
+[ RUN      ] PSIFunctionNodeTest.FunctionNodeOperations
+[       OK ] PSIFunctionNodeTest.FunctionNodeOperations (0 ms)
+[----------] 1 test from PSIFunctionNodeTest (0 ms total)
+
+[----------] 1 test from PSIVariableNodeTest
+[ RUN      ] PSIVariableNodeTest.VariableNodeOperations
+[       OK ] PSIVariableNodeTest.VariableNodeOperations (0 ms)
+[----------] 1 test from PSIVariableNodeTest (0 ms total)
+
+[----------] 3 tests from PSIVisitorTest
+[ RUN      ] PSIVisitorTest.PrintVisitor
+📁 File: test.cpp
+  🔹 File: test.cpp (1 children)
+    🏛️  Class: MyClass
+      🔹 Class: MyClass (2 children)
+        ⚙️  Function: void method()
+          🔹 void method()
+        🔷 Variable: int data
+        🔹 int data
+[       OK ] PSIVisitorTest.PrintVisitor (0 ms)
+[ RUN      ] PSIVisitorTest.CollectVisitor
+[       OK ] PSIVisitorTest.CollectVisitor (0 ms)
+[ RUN      ] PSIVisitorTest.StatisticsVisitor
+=== PSI Tree Statistics ===
+Total nodes: 5
+Files: 1
+Namespaces: 0
+Classes: 2 (Structs: 1, Abstract: 0)
+Functions: 1 (Virtual: 0, Static: 0, Const: 0)
+Variables: 1 (Const: 0, Static: 0, Member: 0, Parameter: 0)
+[       OK ] PSIVisitorTest.StatisticsVisitor (0 ms)
+[----------] 3 tests from PSIVisitorTest (0 ms total)
+
+[----------] 7 tests from PSITreeBuilderTest
+[ RUN      ] PSITreeBuilderTest.BuildFromFile
+[       OK ] PSITreeBuilderTest.BuildFromFile (7 ms)
+[ RUN      ] PSITreeBuilderTest.BuildFromContent
+[       OK ] PSITreeBuilderTest.BuildFromContent (3 ms)
+[ RUN      ] PSITreeBuilderTest.BuildEmptyContent
+[       OK ] PSITreeBuilderTest.BuildEmptyContent (0 ms)
+[ RUN      ] PSITreeBuilderTest.BuildMultipleClasses
+[       OK ] PSITreeBuilderTest.BuildMultipleClasses (2 ms)
+[ RUN      ] PSITreeBuilderTest.PSITreeFactory
+[       OK ] PSITreeBuilderTest.PSITreeFactory (1 ms)
+[ RUN      ] PSITreeBuilderTest.TreeTraversalWithVisitor
+📁 File: visitor_test.cpp
+  🔹 File: visitor_test.cpp (3 children)
+    🏛️  Class: VisitorTest
+      🔹 Class: VisitorTest (0 children)
+    ⚙️  Function: void visitMethod()
+      🔹 void visitMethod()
+    🔷 Variable: int data_member
+    🔹 int data_member
+[       OK ] PSITreeBuilderTest.TreeTraversalWithVisitor (1 ms)
+[ RUN      ] PSITreeBuilderTest.SemanticInformation
+[       OK ] PSITreeBuilderTest.SemanticInformation (1 ms)
+[----------] 7 tests from PSITreeBuilderTest (17 ms total)
+
+[----------] 11 tests from PSITreeOperationsTest
+[ RUN      ] PSITreeOperationsTest.FindAllNodes
+[       OK ] PSITreeOperationsTest.FindAllNodes (2 ms)
+[ RUN      ] PSITreeOperationsTest.FindNodesByName
+[       OK ] PSITreeOperationsTest.FindNodesByName (1 ms)
+[ RUN      ] PSITreeOperationsTest.FindNodesByCondition
+[       OK ] PSITreeOperationsTest.FindNodesByCondition (1 ms)
+[ RUN      ] PSITreeOperationsTest.HierarchyOperations
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:128: Failure
+Expected: (descendants.size()) >= (1), actual: 0 vs 1
+
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:135: Failure
+Expected: (ancestors.size()) >= (2), actual: 1 vs 2
+
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:143: Failure
+Expected equality of these values:
+  common_ancestor->getText()
+    Which is: "test.cpp"
+  "OuterClass"
+
+[  FAILED  ] PSITreeOperationsTest.HierarchyOperations (2 ms)
+[ RUN      ] PSITreeOperationsTest.PathOperations
+[       OK ] PSITreeOperationsTest.PathOperations (1 ms)
+[ RUN      ] PSITreeOperationsTest.TreeMetrics
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:203: Failure
+Expected: (subtree_size) >= (3), actual: 1 vs 3
+
+[  FAILED  ] PSITreeOperationsTest.TreeMetrics (2 ms)
+[ RUN      ] PSITreeOperationsTest.TreeValidation
+[       OK ] PSITreeOperationsTest.TreeValidation (1 ms)
+[ RUN      ] PSITreeOperationsTest.TreeSimilarity
+[       OK ] PSITreeOperationsTest.TreeSimilarity (2 ms)
+[ RUN      ] PSITreeOperationsTest.TreeOptimization
+[       OK ] PSITreeOperationsTest.TreeOptimization (2 ms)
+[ RUN      ] PSITreeOperationsTest.FileAndLineOperations
+[       OK ] PSITreeOperationsTest.FileAndLineOperations (3 ms)
+[ RUN      ] PSITreeOperationsTest.SemanticInfoOperations
+[       OK ] PSITreeOperationsTest.SemanticInfoOperations (1 ms)
+[----------] 11 tests from PSITreeOperationsTest (23 ms total)
+
+[----------] 2 tests from PSITreeQueryTest
+[ RUN      ] PSITreeQueryTest.BasicQuery
+[       OK ] PSITreeQueryTest.BasicQuery (2 ms)
+[ RUN      ] PSITreeQueryTest.AggregationQueries
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:332: Failure
+Expected: (function_count) >= (4), actual: 0 vs 4
+
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:336: Failure
+Expected: (type_groups["Class"]) > (0), actual: 0 vs 0
+
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:337: Failure
+Expected: (type_groups["Function"]) > (0), actual: 0 vs 0
+
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:340: Failure
+Expected: (name_groups["Calculator"]) > (0), actual: 0 vs 0
+
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/test/psi_tree_operations_test.cpp:341: Failure
+Expected: (name_groups["Helper"]) > (0), actual: 0 vs 0
+
+[  FAILED  ] PSITreeQueryTest.AggregationQueries (2 ms)
+[----------] 2 tests from PSITreeQueryTest (4 ms total)
+
+[----------] 1 test from PSITreeAnalyzerTest
+[ RUN      ] PSITreeAnalyzerTest.ComplexityAnalysis
+=== PSI Tree Analysis Metrics ===
+Cyclomatic Complexity: 5
+Number of Children: 7
+Lines of Code: 40
+Maintainability Index: 0
+=================================
+[       OK ] PSITreeAnalyzerTest.ComplexityAnalysis (3 ms)
+[----------] 1 test from PSITreeAnalyzerTest (3 ms total)
+
+[----------] Global test environment tear-down
+[==========] 53 tests from 15 test suites ran. (70 ms total)
+[  PASSED  ] 50 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] PSITreeOperationsTest.HierarchyOperations
+[  FAILED  ] PSITreeOperationsTest.TreeMetrics
+[  FAILED  ] PSITreeQueryTest.AggregationQueries
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.59 sec
+----------------------------------------------------------
+Test Failed.
+"StubIndexTest" end time: Sep 30 16:39 CST
+"StubIndexTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Sep 30 16:39 CST
