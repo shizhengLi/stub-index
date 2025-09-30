@@ -1,0 +1,7 @@
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles/stub_index_test.dir
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles/debug_parser.dir
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles/simple_test.dir
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles/demo.dir
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles/test.dir
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles/edit_cache.dir
+/Users/lishizheng/Desktop/Code/stub-learning/stub-index/build/CMakeFiles/rebuild_cache.dir
