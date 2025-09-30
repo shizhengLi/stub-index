@@ -57,7 +57,7 @@ mkdir build && cd build
 
 2. 配置和构建
 ```bash
-cmake ..
+cmake .
 make
 ```
 

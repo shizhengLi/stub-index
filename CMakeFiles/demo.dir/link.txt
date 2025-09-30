@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/demo.dir/examples/demo.cpp.o CMakeFiles/demo.dir/src/stub_index.cpp.o CMakeFiles/demo.dir/src/stub_parser.cpp.o -o demo  /opt/homebrew/lib/libgtest_main.a /opt/homebrew/lib/libgtest.a
